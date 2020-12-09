@@ -1,0 +1,17 @@
+var wall;
+var bullet;
+
+function setup() {
+    
+
+createCnvas(1300,500);
+wall=createSprite(1250,100,20,80);
+bullet=createSprite(1200,400,100,20)
+}
+
+function draw(){
+   
+background("black");
+drawSprites();
+}
+
